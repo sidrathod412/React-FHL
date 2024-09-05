@@ -114,6 +114,14 @@ Start-Process "C:\Program Files\Microsoft VS Code\bin\code.cmd" -ArgumentList "-
 
 ![dev-container](./images/dev-container.png)
 
+## Starting off in react Sandbox
+
+- Go to [code sand box](https://codesandbox.io/)
+- Sign in using github
+- Fork the current repo to your connected github account.
+- Go to Sandbox workspace and import this github repository.
+- Run `npm install` and `npm start`. 
+
 ## Other commands
 
 ### `npm test`
