@@ -16,7 +16,7 @@ function ListGroup({items, heading, onSelectItem}: Props) {
     }
 
     return (
-        <>
+        <div style={{width: '300px', textAlign: 'center'}}>
         <h1>{heading}</h1>
         { items.length === 0 && <p>No items to display</p>}
         <ul className="list-group">
@@ -26,7 +26,7 @@ function ListGroup({items, heading, onSelectItem}: Props) {
                     {item}
                 </li>)}
         </ul>
-        </>
+        </div>
     )
 }
 

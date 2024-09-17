@@ -10,7 +10,7 @@ function ListGroup({items, heading}: Props) {
     const [selectedIndex, setSelectedIndex] = useState(-1)
 
     return (
-        <>
+        <div style={{width: '300px', textAlign: 'center'}}>
         <h1>{heading}</h1>
         { items.length === 0 && <p>No items to display</p>}
         <ul className="list-group">
@@ -20,7 +20,7 @@ function ListGroup({items, heading}: Props) {
                     {item}
                 </li>)}
         </ul>
-        </>
+        </div>
     )
 }
 
