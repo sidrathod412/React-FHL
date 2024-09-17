@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    /* Make the navbar fixed */
+    top: 0;
+    /* Align it to the top */
+    left: 0;
+    /* Align it to the left */
+    height: auto;
+    /* Make it span the full height of the viewport */
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+.navbar a.active {
+    background-color: #ddd;
+    /* Highlight the active link */
+    color: #7eb5fc;
+    /* Optional: Change text color of active link */
+    font-weight: bold;
+    /* Optional: Make active link text bold */
+}
+
+.content {
+    margin-left: 220px;
+    /* Add margin to the left of the content to accommodate the navbar */
+    padding: 20px;
+    background-color: #fff;
+    flex: 1;
+}
