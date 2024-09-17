@@ -20,10 +20,10 @@ const App = () => {
           <MainNavBar />
           <div className="content">
             <Routes>
-              <Route path="/" element={<><img
+              <Route path="/" element={<div style={{textAlign: 'center'}}><img
                 src="/logo512.png"
                 alt="React Logo"
-                className="mb-3" /><h1>FHL Session on React!</h1></>} />
+                className="mb-3" /><h1>FHL Session on React!</h1></div>} />
               <Route path="/jsx" element={<Message />} />
               <Route path="/eventhandling" element={<Cities />} />
               <Route path="/fetch" element={<ApiFetch />} />

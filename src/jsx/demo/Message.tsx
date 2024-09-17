@@ -3,6 +3,7 @@ import React from 'react'
 const Message = () => {
   // JSX: JavaScript XML
   const name = null;
+  //const name = 'John Doe';
 
   // We can write logic in JSX using curly braces
   if(name === null){
