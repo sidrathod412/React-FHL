@@ -1,0 +1,54 @@
+.app-layout {
+    display: flex;
+    height: 100vh; /* Make the container fill the full height of the viewport */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    align-items: flex-start; /* Align items to the start of the container */
+    justify-content: flex-start; /* Keep items at the top */
+}
+
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px; /* Control the space between items */
+}
+
+.navbar a:last-child {
+    margin-bottom: 0; /* No margin for the last item */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+.navbar a.active {
+    background-color: #ddd;
+    color: #7eb5fc;
+    font-weight: bold;
+}
+
+
+.content {
+    margin-left: 220px; /* Adjust to accommodate the navbar width */
+    padding: 20px;
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}

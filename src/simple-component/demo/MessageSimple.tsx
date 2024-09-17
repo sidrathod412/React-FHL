@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Message = () => {
+const MessageSimple = () => {
   // JSX: JavaScript XML
   return <h1>Hello World!</h1>
 }
 
-export default Message
+export default MessageSimple
